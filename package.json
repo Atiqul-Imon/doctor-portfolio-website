@@ -6,18 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "type-check": "tsc --noEmit",
     "vercel-build": "next build",
     "setup": "node scripts/setup.js",
-=======
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "type-check": "tsc --noEmit",
-    "vercel-build": "next build",
->>>>>>> eb315eff929e8a1d3e49a4ade4a1c3514a25bd66
     "seed-blogs": "tsx scripts/clearAndSeedBlogs.ts"
   },
   "dependencies": {
