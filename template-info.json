@@ -1,0 +1,35 @@
+{
+  "name": "Doctor Website Template",
+  "version": "1.0.0",
+  "description": "Modern Next.js + MERN stack doctor website template",
+  "price": "$30",
+  "features": [
+    "Next.js 15 + MERN stack",
+    "Responsive design",
+    "Glassmorphism UI",
+    "Blog system",
+    "Services management",
+    "Contact form",
+    "WhatsApp integration",
+    "SEO optimized",
+    "Custom 404 page",
+    "Appointment booking"
+  ],
+  "techStack": [
+    "Next.js 15",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "pages": [
+    "Homepage",
+    "About",
+    "Services",
+    "Blog",
+    "Contact",
+    "Appointment",
+    "404 Not Found"
+  ]
+}
