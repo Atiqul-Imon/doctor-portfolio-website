@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏥 Doctor Website Template
 
 A modern, professional doctor website template built with Next.js 15, TypeScript, and Tailwind CSS. Perfect for medical practices, clinics, and healthcare professionals.

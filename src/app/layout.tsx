@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import type { Metadata, Viewport } from "next";
-=======
-import type { Metadata } from "next";
->>>>>>> eb315eff929e8a1d3e49a4ade4a1c3514a25bd66
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -14,24 +10,17 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-<<<<<<< HEAD
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
 };
 
-=======
->>>>>>> eb315eff929e8a1d3e49a4ade4a1c3514a25bd66
 export const metadata: Metadata = {
   title: "Dr. Sarah Johnson - Family Medicine | Comprehensive Healthcare",
   description: "Dr. Sarah Johnson provides compassionate, comprehensive family medicine services. Book your appointment today for preventive care, chronic disease management, and health screenings.",
   keywords: "family medicine, doctor, healthcare, medical services, preventive care, health screenings, Dr. Sarah Johnson",
   authors: [{ name: "Dr. Sarah Johnson" }],
-<<<<<<< HEAD
-=======
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
->>>>>>> eb315eff929e8a1d3e49a4ade4a1c3514a25bd66
   openGraph: {
     title: "Dr. Sarah Johnson - Family Medicine",
     description: "Comprehensive healthcare for your entire family",

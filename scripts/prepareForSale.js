@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const fs = require('fs');
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const path = require('path');
 
 console.log('🧹 Preparing template for sale...');
@@ -22,11 +24,11 @@ const filesToRemove = [
   'TEMPLATE_PREPARATION.md'
 ];
 
-// Directories to clean
-const dirsToClean = [
-  '.next',
-  'node_modules'
-];
+// Directories to clean (unused but kept for reference)
+// const dirsToClean = [
+//   '.next',
+//   'node_modules'
+// ];
 
 // Remove files
 filesToRemove.forEach(file => {
